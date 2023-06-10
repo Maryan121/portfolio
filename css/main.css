@@ -1,0 +1,159 @@
+
+main{
+    margin: 2rem 6rem;
+    box-sizing: border-box;
+    z-index:0;
+    /* display: none; */
+}
+
+.media-icons{
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+    position: fixed;
+    top: 41%;
+    left: 1%;
+    
+}
+.media-icons i{
+    color: #B8BBC0;
+    color: #788F95;
+    cursor: pointer;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.mainpage{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    color: #788F95;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+small{
+    color: #700270;
+    font-size: .9rem;
+    font-weight: 500;
+}
+.a{
+    color: #B8BBC0;
+    font-size: 2rem;
+}
+.n{
+    color: #B8BBC0;
+    text-transform: uppercase;
+    font-size: 2.3rem;
+}
+.aboutDescription{
+    color: #787878;
+    color:#919191;
+    margin: .5rem 0 1.5rem 0;
+    text-transform: capitalize;
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+}
+.highlighted{
+    color: #910a91;
+    color: #FF00FF;
+    font-weight: 500;
+}
+.info-sec{
+    align-self: center;
+    width: 90%;
+}
+.contactBtn{
+    text-decoration: none;
+    background-color: #FF00FF;
+    margin-top: 3rem;
+    border-radius: .3rem;
+    color: #0d0d11;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: .4px;
+    border: #0d0d11 solid 2px;
+    padding: .5rem .8rem;
+}
+.contactBtn:hover, .contactBtn:focus{
+    background: none;
+    border: #FF00FF solid 2px;
+    color: #FF00FF;
+}
+img{
+    width: 100%;
+}
+.img-sec{
+    position: relative;
+    /* background-color: red; */
+    
+}
+.img-sec::before{
+    display: block;
+    width: 90%;
+    height: 50%;
+    content: '';
+    background-color: #c0c0c025;
+    border: #700270 solid 1px;
+    border: #FF00FF solid 1px;
+    border-radius:100%;
+    padding: 1rem 0;
+    position: absolute;
+    top: 35%;
+}
+.img-sec::after{
+    display: block;
+    width: 90%;
+    height: 50%;
+    content: '';
+    background-color: #c0c0c009;
+    border: #700270 solid 1px;
+    border-radius:100%;
+    padding: 1rem 0;
+    position: absolute;
+    top: 15%;
+}
+.mainImage{
+    filter: brightness(80%);
+    transform: rotateY(210deg);
+}
+
+
+   
+
+@media screen and (max-width:415px){
+   
+    main{
+        padding: 0;
+        margin: 1rem 3.5rem;
+    }
+    .mainpage{
+        margin-top: 5rem;
+        /* background-color: red; */
+        grid-template-columns: 100%;
+        padding: 0;
+        gap: 3rem;
+    }
+    .img-sec img{
+        width: 130%;
+        
+    }
+    .info-sec{
+        width: 100%;
+    }
+    .a{
+        font-weight: 500;
+        font-size: 1.3rem;
+    }
+    .n{
+        font-size: 1.3rem;
+        line-height:2rem;
+    }
+    .aboutDescription{
+        line-height: 1.8rem;
+    }
+    
+   
+   
+}
