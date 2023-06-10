@@ -34,7 +34,7 @@
 
 @media (max-width:415px) {
     .skills{
-        /* margin-top: 7rem; */
+        margin-top: 7rem;
     }
     .skills-container{
         grid-template-columns: 50% 50%;
