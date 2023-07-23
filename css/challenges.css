@@ -31,9 +31,7 @@
     margin-bottom: 1rem;
     border-radius: 3rem;
 }
-.completed{
-    display: none;
-}
+
 .plainside{
     background:linear-gradient(to right,#d808d87a,#d808d880);
     height: 45vh;
@@ -51,7 +49,7 @@
 .projectName{
     text-transform: capitalize;
     padding: .7rem;
-    font-size: 1.35rem;
+    font-size: 1.3rem;
     color: #C0C0C0;
     margin: 0;
 }
